@@ -10,7 +10,7 @@ const generateFibonacciArray = () => {
     let fib = [];
     let i = 0;
     
-    loopLimit = checkValue(fib[i]);
+    let loopLimit = checkValue(fib[i]);
 
     while (loopLimit == false) {
         let fibOperation = fib[i-1] + fib[i-2];
@@ -29,6 +29,7 @@ const generateFibonacciArray = () => {
 }
 
 const fibonacciArray = generateFibonacciArray();
+console.log(fibonacciArray);
 
 const isFibonnaci = (number) => {
     return fibonacciArray.includes(number);
