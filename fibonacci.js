@@ -1,4 +1,4 @@
-const checkValue= (index) => {
+const checkValue = (index) => {
     if (index < 350) {
         return false;
     } else if (index == undefined) {
